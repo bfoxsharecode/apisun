@@ -363,6 +363,6 @@ def get_prediction():
         return handle_error(e)
 
 if __name__ == '__main__':
-    app.run(debug=True, port=8080)
+    app.run(host='0.0.0.9', port=8080)
     print("✅ Sic Bo Analysis & Prediction API is running at http://localhost:8080")
     print("⚠️ Note: This is a statistical analysis tool, not a guaranteed prediction. Sic Bo is a game of chance.")
